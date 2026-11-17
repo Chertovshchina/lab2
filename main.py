@@ -1,11 +1,13 @@
-import math
+number = int(input("Введите число: "))
 
-radius = 5
-a = 2 * math.pi * radius
-b = math.pi * radius ** 2
+if number > 0:
+    print("Число положительное")
+elif number < 0:
+    print("Число отрицательное")
+else:
+    print("Число равно нулю")
 
-print("Радиус:", radius)
-print("Длина окружности:", a)
-print("Площадь круга:", b)
-
-print(math.sqrt(64))
+if number % 2 == 0:
+    print("Число чётное")
+else:
+    print("Число нечётное")
