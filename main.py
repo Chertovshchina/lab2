@@ -1,7 +1,11 @@
-a = float(input("Введите первое число: "))
-b = float(input("Введите второе число: "))
-
-print("Сумма:", a + b)
-print("Разность:", a - b)
-print("Произведение:", a * b)
-print("Деление:", a / b)
+for i in range(1, 11):
+    print(i)
+print("=====")
+for i in range(10, 0, -1):
+    print(i)
+print("=====")
+for i in range(0, 21, 2):
+    print(i)
+print("=====")
+for i in range(0, 21, 5):
+    print(i)
