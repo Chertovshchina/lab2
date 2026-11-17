@@ -1,13 +1,7 @@
-a = 15
-b = 4
+a = float(input("Введите первое число: "))
+b = float(input("Введите второе число: "))
 
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
-print(a // b)
-print(a % b)
-print(a ** b)
-
-print(2 + 3 * 4)
-print((2 + 3) * 4)
+print("Сумма:", a + b)
+print("Разность:", a - b)
+print("Произведение:", a * b)
+print("Деление:", a / b)
