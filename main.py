@@ -1,12 +1,13 @@
-name = input("Введите ваше имя: ")
-last_name = input("Введите вашу фамилию: ")
-age = input("Введите ваш возраст: ")
-print("Тип возраста до преобразования:", type(age))
+a = 15
+b = 4
 
-age = int(age)
-height = float(input("Введите ваш рост: "))
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
 
-print("Имя:", name)
-print("Фамилия:", last_name)
-print("Возраст:", age, "Тип:", type(age))
-print("Рост:", height, "Тип:", type(height))
+print(2 + 3 * 4)
+print((2 + 3) * 4)
