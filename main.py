@@ -1,7 +1,11 @@
-count = 10
+import math
 
-while count >= 1:
-    print(count)
-    count -= 1
+radius = 5
+a = 2 * math.pi * radius
+b = math.pi * radius ** 2
 
-print("Цикл завершён")
+print("Радиус:", radius)
+print("Длина окружности:", a)
+print("Площадь круга:", b)
+
+print(math.sqrt(64))
