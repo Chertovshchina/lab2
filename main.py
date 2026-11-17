@@ -1,7 +1,7 @@
-n = int(input("Введите целое положительное число n: "))
-a = 0
+count = 10
 
-for i in range(1, n + 1):
-    a += i
+while count >= 1:
+    print(count)
+    count -= 1
 
-print(a)
+print("Цикл завершён")
