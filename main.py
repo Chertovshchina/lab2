@@ -1,10 +1,11 @@
-age = 19
-has_access = True
+n = int(input("Введите количество измерений: "))
+sum = 0.0
 
-print("Возраст:", age)
-print("Допуск имеется:", has_access)
+for i in range(1, n + 1):
+    count = float(input(f"Введите измерение №{i}: "))
+    sum += count
 
-if age >= 18 and has_access:
-    print("Доступ разрешён")
-else:
-    print("Доступ запрещён")
+sr = sum / n
+
+print("Сумма всех измерений:", sum)
+print("Среднее арифметическое:", sr)
