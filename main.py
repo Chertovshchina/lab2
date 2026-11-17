@@ -1,13 +1,10 @@
-number = int(input("Введите число: "))
+age = 19
+has_access = True
 
-if number > 0:
-    print("Число положительное")
-elif number < 0:
-    print("Число отрицательное")
-else:
-    print("Число равно нулю")
+print("Возраст:", age)
+print("Допуск имеется:", has_access)
 
-if number % 2 == 0:
-    print("Число чётное")
+if age >= 18 and has_access:
+    print("Доступ разрешён")
 else:
-    print("Число нечётное")
+    print("Доступ запрещён")
