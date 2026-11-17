@@ -1,11 +1,7 @@
-for i in range(1, 11):
-    print(i)
-print("=====")
-for i in range(10, 0, -1):
-    print(i)
-print("=====")
-for i in range(0, 21, 2):
-    print(i)
-print("=====")
-for i in range(0, 21, 5):
-    print(i)
+n = int(input("Введите целое положительное число n: "))
+a = 0
+
+for i in range(1, n + 1):
+    a += i
+
+print(a)
